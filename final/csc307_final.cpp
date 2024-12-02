@@ -253,7 +253,7 @@ int main() {
                 getline(cin, prefix);
                 if(trie.startsWith(prefix)){
                     vector<string> suggestions = trie.getWordsWithPrefix(prefix);
-                    // Increment frequency for selected suggestion (simulated)
+                    // Increment frequency for selected suggestion
                     displaySuggestions(suggestions, wordFrequency);
                 }
                 else{
